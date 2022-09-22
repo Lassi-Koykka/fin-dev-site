@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TextField from "../components/TextField.svelte";
+	import TextField from "$lib/components/TextField.svelte";
 	import type { PageData } from ".svelte-kit/types/src/routes/$types";
 	export let data: PageData;
 	const sortedCount = Object.entries(data.techCounts.overall)
